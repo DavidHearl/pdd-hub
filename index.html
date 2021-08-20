@@ -8,26 +8,65 @@
     <header>
         <nav>
             <ul id="menu">
-                <li><a href="#">Automation Directory</a></li>
-                <li><a href="#">Product Drawings</a></li>
-                <li><a href="#">Tool Drawings</a></li>
-                <li><a href="#">Approval</a></li>
-                <li><a href="#">CAD/CAM</a></li>
-                <li><a href="#">Jigs and Fixtures</a></li>
+                <li><a href="index.html">Automation Directory</a></li>
+                <li><a href="product-drawings.html">Product Drawings</a></li>
+                <li><a href="tool-drawings.html">Tool Drawings</a></li>
+                <li><a href="approval.html">Approval</a></li>
+                <li><a href="cad-cam.html">CAD/CAM</a></li>
+                <li><a href="jigs-and-fixtures.html">Jigs and Fixtures</a></li>
             </ul>
         </nav> 
     </header>
     <section>
-        <div>
+        <div id="left-pane">
             <form method="GET">
                 <h1>Configurator Selection</h1>
                 <label>Configurator:</label>
-                <input>
+                <select id="configurator">
+                    <option>Twin Tube</option>
+                    <option>Monotube</option>
+                    <option>Bus & Truck</option>
+                  </select>
                 <label>Variation:</label>
-                <input>
+                <select id="variation">
+                    <option>Tenneco</option>
+                    <option>ZF</option>
+                  </select>
+            </form>
+        </div>
+        <div id="center-pane">
+            <form method="GET">
+                <h1>Features</h1>
+                <label>Configurator:</label>
+                <select id="configurator">
+                    <option>Twin Tube</option>
+                    <option>Monotube</option>
+                    <option>Bus & Truck</option>
+                  </select>
+                <label>Variation:</label>
+                <select id="variation">
+                    <option>Tenneco</option>
+                    <option>ZF</option>
+                  </select>
+            </form>
+        </div>
+        <div id="right-pane">
+            <form method="GET">
+                <h1>Configurator Selection</h1>
+                <label>Configurator:</label>
+                <select id="configurator">
+                    <option>Twin Tube</option>
+                    <option>Monotube</option>
+                    <option>Bus & Truck</option>
+                  </select>
+                <label>Variation:</label>
+                <select id="variation">
+                    <option>Tenneco</option>
+                    <option>ZF</option>
+                  </select>
             </form>
         </div>
     </section>
-
+ 
 </body>
 </html>
