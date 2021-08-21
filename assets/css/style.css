@@ -25,7 +25,7 @@
     color: #5c99d6;
 }
 /*Body*/
-h1{
+legend{
     position: relative;
     font-size: 120%;;
     background-color: #1d5086;
@@ -33,19 +33,27 @@ h1{
     padding-left: 10px 5px 5px 10px;
     border-radius: 4px;
     margin: 5px;
+    width: 98%;
 }
 #left-pane{
-    width: 33%;
+    width: 35%;
     float: left;
+    margin-left: 15%;
 }
 #right-pane{
-    width: 33%;
+    width: 35%;
     float: right;
+    margin-right: 15%;
 }
-#center-pane{
-    width: 33%;
-    margin: 0 auto;
-}
+label{
+    width: 15%;
+    margin: 4px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 select {
     width: 80%;
     margin: 4px;
@@ -56,14 +64,13 @@ select {
     border-radius: 4px;
     font-size: 90%;
   }
-label{
-    width: 15%;
+input {
+    width: 78%;
     margin: 4px;
-    float: left;
-    padding: 5px;
-    display: inline-block;
-    font-size: 90%;
+    padding: 4px;
+    float: right;
+    display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-
+    font-size: 90%;
+}
