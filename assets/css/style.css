@@ -26,14 +26,13 @@
 }
 /*Body*/
 legend{
-    position: relative;
     font-size: 120%;;
     background-color: #3f6ea0;
     color: #edf5fd;
     padding-left: 10px 5px 5px 10px;
     border-radius: 4px;
     margin: 5px;
-    width: 98%;
+    width: 100%;
 }
 #left-pane{
     width: 40%;
@@ -86,4 +85,7 @@ input[type=submit] {
 }
 form{
     border: 1px solid rgb(189, 49, 49);
+}
+fieldset{
+    margin: 10px;
 }
