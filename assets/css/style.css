@@ -53,7 +53,7 @@ legend{
 }
 label{
     width: 20%;
-    /*margin: 4px;*/
+    margin: 2px;
     padding: 5px;
     display: inline-block;
     font-size: 90%;
@@ -62,7 +62,7 @@ label{
 }
 select {
     width: 75%;
-    /*margin: 4px;*/
+    margin: 2px;
     float:right;
     padding: 4px;
     display: inline-block;
@@ -72,7 +72,7 @@ select {
 }
 input[type=text] {
     width: 73.5%;
-    /*margin: 4px;*/
+    margin: 2px;
     padding: 4px;
     float: right;
     display: block;
@@ -82,11 +82,38 @@ input[type=text] {
 }
 input[type=submit] {
     width: 100%;
-    margin: 4px;
+    margin: 2px;
     padding: 4px;
     float: right;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 90%;
+}
+#inventor{
+    width: 100%;
+    height: 480px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+@media screen and (max-width:900px) {
+    #left-pane{
+        width: 88%;
+    }
+    #right-pane{
+        width: 88%;
+    }
+    select {
+        width: 63%
+    }
+    input[type=text] {
+        width: 60%;
+    }
+    label{
+        width: 30%;
+    }
+    #inventor{
+        height: 400px;
+    }
+
 }
