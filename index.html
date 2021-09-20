@@ -15,10 +15,6 @@
     <!--Navigation/Header-->
     <header>
         <nav>
-            <div id="masthead">
-                <form><input type="search"></form>
-                <a href="#" id="login">Login</a>
-            </div>
             <div id="menu">
                 <ul>
                     <li><a href="index.html">Automation Directory</a></li>
@@ -33,27 +29,31 @@
         </nav> 
     </header>
 
+    <div id="masthead">
+        <input type="search">
+        <a href="#" id="login">Login</a>
+    </div>
+
     <main>
-        <iframe id="inventor" src="https://myhub.autodesk360.com/ue2d04d85/shares/public/SH56a43QTfd62c1cd9680d0864dfd3d27828?mode=embed" height="500px" width="800px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+        <div>
+            <iframe id="inventor" src="https://myhub.autodesk360.com/ue2d04d85/shares/public/SH56a43QTfd62c1cd9680d0864dfd3d27828?mode=embed" height="600px" width="60%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+        </div>
         
-        <div id="config-menu">
-            <button class="accordion">Configurator Selection:</button>
-            <div class="panel">
-                <fieldset>
-                    <label>Configurator:</label>
-                    <select>
-                        <option>Twin Tube</option>
-                        <option>Monotube</option>
-                        <option>Bus & Truck</option>
-                    </select>
-                    <label>Variation:</label>  
-                    <select>
-                        <option>Tenneco</option>
-                        <option>ZF Zachs</option>
-                        <option>World Design</option>
-                    </select>
-                </fieldset>
-            </div>
+        <div class="config-menu">
+             <fieldset>
+                <label>Configurator:</label>
+                <select>
+                    <option>Twin Tube</option>
+                    <option>Monotube</option>
+                    <option>Bus & Truck</option>
+                </select>
+                <label>Variation:</label>  
+                <select>
+                    <option>Tenneco</option>
+                    <option>ZF Zachs</option>
+                    <option>World Design</option>
+                </select>
+            </fieldset>
             
             <button class="accordion">Part Information:</button>
             <div class="panel">
@@ -64,7 +64,7 @@
                     <input type="text">
                     <label>OD</label>  
                     <input type="text">
-                    <label>Insert</label>  
+                    <label>Insert</label>
                     <select>
                         <option>0.8</option>
                         <option>1.0</option>
@@ -155,6 +155,7 @@
                     <input type="text">
                 </fieldset>    
             </div>
+
             <button class="accordion">Features</button>
             <div class="panel">
                 <fieldset>
@@ -171,8 +172,7 @@
                         </select>
                 </fieldset>   
             </div>
-
-        </div>
+        </div>   
     </main>
 
     <script>
