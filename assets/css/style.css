@@ -15,7 +15,7 @@
     font-size: 1.1rem;
     background-color: rgb(28, 28, 30);
     width: 15%;
-    height: 95vh;
+    height: 1200px;
     float: left;
     display: inline-block;
 }
@@ -23,7 +23,7 @@ main{
     display: inline-block;
     float: right;
     width: calc(85% - 2px);
-    height: 1000px;
+    height: 1200px;
     background-color:rgb(28, 28, 30);
     border-left: 2px solid rgb(58, 58, 60);
 }
@@ -59,13 +59,11 @@ input[type=search]{
     height: 30px;
 }
 .accordion {
-    /*float: right;*/
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
@@ -77,17 +75,21 @@ input[type=search]{
 .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: rgb(189, 109, 109);
     overflow: hidden;
-    width:100%;
+    width:95%;
 }
 #config-menu{
     float: right;
-    width:50%;
+    width:40%;
 }
 select, input[type=text]{
     border: 1px solid black;
     border-radius: 5px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
 }
   
 

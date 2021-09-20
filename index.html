@@ -55,36 +55,123 @@
                 </fieldset>
             </div>
             
-            <button class="accordion">Section 2</button>
+            <button class="accordion">Part Information:</button>
             <div class="panel">
                 <fieldset>
-                    <legend>Part Information</legend>
-                        <label>Reference</label>  
-                        <input type="text" value="DHSWV 11-31.2-1.5 STD">
-                        <label>Rod</label>  
-                        <input type="text">
-                        <label>OD</label>  
-                        <input type="text">
-                        <label>Insert</label>  
-                        <select>
-                            <option>0.8</option>
-                            <option>1.0</option>
-                            <option>2.0</option>
-                            <option>3.0</option>
-                        </select>
-                        <label>Total Weight</label>  
-                        <input type="text">
-                        <label>Metal</label>  
-                        <input type="text">
-                        <label>Rubber</label>  
-                        <input type="text">
+                    <label>Reference</label>  
+                    <input type="text" value="DHSWV 11-31.2-1.5 STD">
+                    <label>Rod</label>  
+                    <input type="text">
+                    <label>OD</label>  
+                    <input type="text">
+                    <label>Insert</label>  
+                    <select>
+                        <option>0.8</option>
+                        <option>1.0</option>
+                        <option>2.0</option>
+                        <option>3.0</option>
+                    </select>
+                    <label>Total Weight</label>  
+                    <input type="text">
+                    <label>Metal</label>  
+                    <input type="text">
+                    <label>Rubber</label>  
+                    <input type="text">
                 </fieldset> 
             </div>
 
-            <button class="accordion">Section 3</button>
+            <button class="accordion">Material</button>
             <div class="panel">
-            <p>Lorem ipsum...</p>
+                <fieldset>
+                    <label>Material:</label>  
+                    <select>
+                        <option>82 NBR 287277</option>
+                        <option>80 NBR 287270</option>
+                        <option>80 NBR 289115</option>
+                    </select>
+                    <label>Total Weight</label>  
+                    <input type="text">
+                    <label>Metal</label>  
+                    <input type="text">
+                    <label>Rubber</label>  
+                    <input type="text">
+                </fieldset>
             </div>
+
+            <button class="accordion">Insert</button>
+            <div class="panel">
+                <fieldset>
+                    <label>Total Weight</label>  
+                    <input type="text">
+                    <label>Material:</label>  
+                    <select>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <label>Total Weight</label>  
+                    <input type="text">
+                    <label>Metal</label>  
+                    <input type="text">
+                    <label>Rubber</label>  
+                    <input type="text">
+                    <label>Metal</label>  
+                    <input type="text">
+                    <label>Rubber</label>  
+                    <input type="text">
+                    <label>Phosphated:</label>  
+                    <select id="configurator">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </fieldset> 
+            </div>
+
+            <button class="accordion">Springs</button>
+            <div class="panel">
+                <fieldset>
+                    <legend>Spring 1</legend>
+                    <label>Material:</label>  
+                    <select>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <label>Total Weight</label>  
+                    <input type="text">
+                    <label>Metal</label>  
+                    <input type="text">
+                    <label>Rubber</label>  
+                    <input type="text">
+                    <legend>Spring 2</legend>
+                    <label>Material:</label>  
+                    <select>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <label>Total Weight</label>  
+                    <input type="text">
+                    <label>Metal</label>  
+                    <input type="text">
+                    <label>Rubber</label>  
+                    <input type="text">
+                </fieldset>    
+            </div>
+            <button class="accordion">Features</button>
+            <div class="panel">
+                <fieldset>
+                    <legend>Features</legend>
+                        <label>Check Valve:</label>
+                        <select>
+                            <option>On</option>
+                            <option>Off</option>
+                        </select>
+                        <label>Static Seal Position:</label>  
+                        <select>
+                            <option>Top</option>
+                            <option>Bottom</option>
+                        </select>
+                </fieldset>   
+            </div>
+
         </div>
     </main>
 
@@ -106,145 +193,9 @@
         </script>
 
 
+
+
     <!--<section>
-        <div id="left-pane">
-            <form method="GET"> 
-             
-
-                
-                <fieldset>
-                <legend>Material</legend>
-                <p>
-                    <label>Material:</label>  
-                    <select>
-                        <option>82 NBR 287277</option>
-                        <option>80 NBR 287270</option>
-                        <option>80 NBR 289115</option>
-                    </select>
-                </p>
-                <p>
-                    <label>Total Weight</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Metal</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Rubber</label>  
-                    <input type="text">
-                </p>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Insert</legend>
-                <p>
-                    <label>Total Weight</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Material:</label>  
-                    <select>
-                        <option>Option 1</option>
-                        <option>Option 2</option>
-                    </select>
-                </p>
-                <p>
-                    <label>Total Weight</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Metal</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Rubber</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Metal</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Rubber</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Phosphated:</label>  
-                    <select id="configurator">
-                        <option>Yes</option>
-                        <option>No</option>
-                    </select>
-                </p>
-            </fieldset> 
-            <fieldset>
-                <legend>Spring 1</legend>
-                <p>
-                    <label>Material:</label>  
-                    <select>
-                        <option>Option 1</option>
-                        <option>Option 2</option>
-                    </select>
-                </p>
-                <p>
-                    <label>Total Weight</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Metal</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Rubber</label>  
-                    <input type="text">
-                </p>
-            </fieldset>
-
-            <fieldset>
-                <legend>Spring 2</legend>
-                <p>
-                    <label>Material:</label>  
-                    <select>
-                        <option>Option 1</option>
-                        <option>Option 2</option>
-                    </select>
-                </p>
-                <p>
-                    <label>Total Weight</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Metal</label>  
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Rubber</label>  
-                    <input type="text">
-                </p>
-            </fieldset>
-                <fieldset>
-                    <legend>Features</legend>
-                    <p>
-                        <label>Check Valve:</label>
-                        <select>
-                            <option>On</option>
-                            <option>Off</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label>Static Seal Position:</label>  
-                        <select>
-                            <option>Top</option>
-                            <option>Bottom</option>
-                        </select>
-                    </p>
-                </fieldset>
-
-            </form>
-        </div>
-    </section>
-
-    <section>
       <div id="right-pane">
         <iframe id="inventor" src="https://myhub.autodesk360.com/ue2d04d85/shares/public/SH56a43QTfd62c1cd9680d0864dfd3d27828?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
         <form method="GET">           
