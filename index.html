@@ -34,36 +34,59 @@
     </header>
 
     <main>
-        <button class="accordion">Configurator Selection:</button>
-        <div class="panel">
-            <fieldset>
-                <label>Configurator:</label>
-                <select>
-                    <option>Twin Tube</option>
-                    <option>Monotube</option>
-                    <option>Bus & Truck</option>
-                </select>
-                <label>Variation:</label>  
-                <select>
-                    <option>Tenneco</option>
-                    <option>ZF Zachs</option>
-                    <option>World Design</option>
-                </select>
-            </fieldset>
-        </div>
+        <iframe id="inventor" src="https://myhub.autodesk360.com/ue2d04d85/shares/public/SH56a43QTfd62c1cd9680d0864dfd3d27828?mode=embed" height="500px" width="800px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+        
+        <div id="config-menu">
+            <button class="accordion">Configurator Selection:</button>
+            <div class="panel">
+                <fieldset>
+                    <label>Configurator:</label>
+                    <select>
+                        <option>Twin Tube</option>
+                        <option>Monotube</option>
+                        <option>Bus & Truck</option>
+                    </select>
+                    <label>Variation:</label>  
+                    <select>
+                        <option>Tenneco</option>
+                        <option>ZF Zachs</option>
+                        <option>World Design</option>
+                    </select>
+                </fieldset>
+            </div>
+            
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <fieldset>
+                    <legend>Part Information</legend>
+                        <label>Reference</label>  
+                        <input type="text" value="DHSWV 11-31.2-1.5 STD">
+                        <label>Rod</label>  
+                        <input type="text">
+                        <label>OD</label>  
+                        <input type="text">
+                        <label>Insert</label>  
+                        <select>
+                            <option>0.8</option>
+                            <option>1.0</option>
+                            <option>2.0</option>
+                            <option>3.0</option>
+                        </select>
+                        <label>Total Weight</label>  
+                        <input type="text">
+                        <label>Metal</label>  
+                        <input type="text">
+                        <label>Rubber</label>  
+                        <input type="text">
+                </fieldset> 
+            </div>
 
-        <button class="accordion">Section 2</button>
-        <div class="panel">
-        <p>Lorem ipsum...</p>
-        </div>
-
-        <button class="accordion">Section 3</button>
-        <div class="panel">
-        <p>Lorem ipsum...</p>
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+            <p>Lorem ipsum...</p>
+            </div>
         </div>
     </main>
-
-
 
     <script>
         var acc = document.getElementsByClassName("accordion");
@@ -88,42 +111,7 @@
             <form method="GET"> 
              
 
-                <fieldset>
-                    <legend>Part Information</legend>
-                    <p>
-                        <label>Reference</label>  
-                        <input type="text" value="DHSWV 11-31.2-1.5 STD">
-                    </p>
-                    <p>
-                        <label>Rod</label>  
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label>OD</label>  
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label>Insert</label>  
-                        <select>
-                            <option>0.8</option>
-                            <option>1.0</option>
-                            <option>2.0</option>
-                            <option>3.0</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label>Total Weight</label>  
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label>Metal</label>  
-                        <input type="text">
-                    </p>
-                    <p>
-                        <label>Rubber</label>  
-                        <input type="text">
-                    </p>
-                </fieldset> 
+                
                 <fieldset>
                 <legend>Material</legend>
                 <p>
