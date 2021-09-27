@@ -1,1 +1,3 @@
-Use "node server.js" to launch
+npm init -y
+npm i express
+node server.js
