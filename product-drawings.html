@@ -1,29 +1,173 @@
-<ul class="cd-accordion margin-top-lg margin-bottom-lg">
-    <li class="cd-accordion__item cd-accordion__item--has-children">
-      <input class="cd-accordion__input" type="checkbox" name ="group-1" id="group-1">
-      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-1"><span>Group 1</span></label>
-  
-      <ul class="cd-accordion__sub cd-accordion__sub--l1">
-        <li class="cd-accordion__item cd-accordion__item--has-children">
-          <input class="cd-accordion__input" type="checkbox" name ="sub-group-1" id="sub-group-1">
-          <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-1"><span>Sub Group 1</span></label>
-  
-          <ul class="cd-accordion__sub cd-accordion__sub--l2">
-            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-          </ul>
-        </li>
-    
-        <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-        <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
-      </ul>
-    </li>
-  
-    <li class="cd-accordion__item cd-accordion__item--has-children">
-      <a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a>
-    </li>
-    <li class="cd-accordion__item cd-accordion__item--has-children">
-      <a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a>
-    </li>
-  </ul> <!-- cd-accordion -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>document.getElementsByTagName("html")[0].className += " js";</script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Product Drawings</title>
+      </head>
+</head>
+<body>
+    <script type="module" src="/static/js/index.js"></script>
+    <header>
+        <nav>
+            <div id="menu">
+                <ul>
+                    <li><h1>FREUDENBERG</h1></li>
+                    <li><a href="index.html">Automation Directory</a></li>
+                    <li><a href="product-drawings.html">Product Drawings</a></li>
+                    <li><a href="tool-drawings.html">Tool Drawings</a></li>
+                    <li><a href="validation-drawings.html">Validation Drawings</a></li>
+                    <li><a href="approval.html">Approval</a></li>
+                    <li><a href="cad-cam.html">CAD/CAM</a></li>
+                    <li><a href="jigs-and-fixtures.html">Jigs and Fixtures</a></li>
+                </ul>
+            </div>
+        </nav> 
+    </header>
+
+    <div id="masthead">
+        <input type="search">
+        <a href="#" id="login">Login</a>
+    </div>
+
+    <main>
+        <div id="leftside">
+            <iframe src="https://myhub.autodesk360.com/ue2d04d85/shares/public/SH9285eQTcf875d3c53994997dd3d8a3d347?mode=embed" height="800px" width="97%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+        </div>
+        
+        <div id="rightside">
+            <div id="accordion-container">
+                <div class="inline-block"><label>Configurator:</label>
+                    <select>
+                        <option>Twin Tube</option>
+                        <option>Monotube</option>
+                        <option>Bus & Truck</option>
+                    </select>
+                </div>
+                <div class="inline-block"><label>Variation:</label>
+                    <select>
+                        <option>Tenneco</option>
+                        <option>ZF Zachs</option>
+                        <option>World Design</option>
+                    </select>
+                </div>
+
+                <button class="accordion">Part Information:</button>
+                <div class="panel">
+                    <div class="inline-block"><label>Reference</label><input type="text" value="DHSWV 11-31.2-1.5 STD"></div> 
+                    <div class="inline-block"><label>Rod</label><input type="text"></div>
+                    <div class="inline-block"><label>OD</label><input type="text"></div>
+                    <div class="inline-block"><label>Insert</label>
+                        <select>
+                            <option>0.8</option>
+                            <option>1.0</option>
+                            <option>2.0</option>
+                            <option>3.0</option>
+                        </select>
+                    </div>
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
+                </div>
+
+                <button class="accordion">Material</button>
+                <div class="panel">
+                    <div class="inline-block"><label>Material:</label>
+                        <select>
+                            <option>82 NBR 287277</option>
+                            <option>80 NBR 287270</option>
+                            <option>80 NBR 289115</option>
+                        </select>
+                    </div>
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>   
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>       
+                </div>
+
+                <button class="accordion">Insert</button>
+                <div class="panel">
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Material:</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                    </div>        
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>          
+                    <div class="inline-block"><label>Phosphated:</label>
+                        <select id="configurator">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>      
+                </div>
+
+                <button class="accordion">Springs</button>
+                <div class="panel">
+                    <div class="inline-block"><label>Material:</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                    </div>
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
+                    <div class="inline-block"><label>Material:</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                    </div>
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
+                </div>
+
+                <button class="accordion">Features</button>
+                <div class="panel">
+                    <div class="inline-block"><label>Check Valve:</label>
+                        <select>
+                            <option>On</option>
+                            <option>Off</option>
+                        </select>
+                    </div>
+                    <div class="inline-block"><label>Static Seal Position:</label> 
+                        <select>
+                            <option>Top</option>
+                            <option>Bottom</option>
+                        </select> 
+                    </div>
+                </div>
+            </div> <!--Accordion Container Collapse-->
+        </div> <!--Right side collapse-->
+    </main>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+</body>
+</html>
