@@ -150,12 +150,49 @@
                         </select> 
                     </div>
                 </div>
+
+                <button class="accordion-customer">Customer Information</button>
+                <div class="panel">
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Material:</label>
+                        <select>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                    </div>        
+                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
+                    <div class="inline-block"><label>Metal</label><input type="text"></div>
+                    <div class="inline-block"><label>Rubber</label><input type="text"></div>          
+                    <div class="inline-block"><label>Phosphated:</label>
+                        <select id="configurator">
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>      
+                </div>    
             </div> <!--Accordion Container Collapse-->
         </div> <!--Right side collapse-->
     </main>
 
     <script>
         var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+
+        var acc = document.getElementsByClassName("accordion-customer");
         var i;
         
         for (i = 0; i < acc.length; i++) {
