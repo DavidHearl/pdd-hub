@@ -39,7 +39,12 @@
 
         <div id="leftside">
             <iframe id="twin-tube" src="https://myhub.autodesk360.com/ue2d04d85/shares/public/SH56a43QTfd62c1cd9680d0864dfd3d27828?mode=embed" height="800px" width="97%" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-            <div id="cost-box"></div>
+            <div id="cost-box">
+                <div id=command>
+                    <button class="submit">Update</button> 
+                    <button class="submit">Submit</button>     
+                </div>
+            </div>
         </div>
         
         <div id="rightside">
@@ -93,18 +98,13 @@
 
                 <button class="accordion">Insert</button>
                 <div class="panel">
-                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
+                    <div class="inline-block"><label>Reference</label><input type="text"></div>
                     <div class="inline-block"><label>Material:</label>
                         <select>
                             <option>Option 1</option>
                             <option>Option 2</option>
                         </select>
-                    </div>        
-                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
-                    <div class="inline-block"><label>Metal</label><input type="text"></div>
-                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
-                    <div class="inline-block"><label>Metal</label><input type="text"></div>
-                    <div class="inline-block"><label>Rubber</label><input type="text"></div>          
+                    </div>               
                     <div class="inline-block"><label>Phosphated:</label>
                         <select id="configurator">
                             <option>Yes</option>
@@ -115,6 +115,7 @@
 
                 <button class="accordion">Springs</button>
                 <div class="panel">
+                    <h2>Spring 1</h2>
                     <div class="inline-block"><label>Material:</label>
                         <select>
                             <option>Option 1</option>
@@ -124,6 +125,7 @@
                     <div class="inline-block"><label>Total Weight</label><input type="text"></div>
                     <div class="inline-block"><label>Metal</label><input type="text"></div>
                     <div class="inline-block"><label>Rubber</label><input type="text"></div>
+                    <h2>Spring 2</h2>
                     <div class="inline-block"><label>Material:</label>
                         <select>
                             <option>Option 1</option>
@@ -152,26 +154,13 @@
                 </div>
 
                 <button class="accordion-customer">Customer Information</button>
-                <div class="panel">
-                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
-                    <div class="inline-block"><label>Material:</label>
-                        <select>
-                            <option>Option 1</option>
-                            <option>Option 2</option>
-                        </select>
-                    </div>        
-                    <div class="inline-block"><label>Total Weight</label><input type="text"></div>
-                    <div class="inline-block"><label>Metal</label><input type="text"></div>
-                    <div class="inline-block"><label>Rubber</label><input type="text"></div>
-                    <div class="inline-block"><label>Metal</label><input type="text"></div>
-                    <div class="inline-block"><label>Rubber</label><input type="text"></div>          
-                    <div class="inline-block"><label>Phosphated:</label>
-                        <select id="configurator">
-                            <option>Yes</option>
-                            <option>No</option>
-                        </select>
-                    </div>      
-                </div>    
+                <div class="panel-customer">
+                    <div class="inline-block"><label>First Name :</label><input type="text"></div>
+                    <div class="inline-block"><label>Last Name :</label><input type="text"></div>
+                    <div class="inline-block"><label>Company :</label><input type="text"></div>
+                    <div class="inline-block"><label>Phone :</label><input type="text"></div>
+                    <div class="inline-block"><label>Email :</label><input type="text"></div>
+                </div>  
             </div> <!--Accordion Container Collapse-->
         </div> <!--Right side collapse-->
     </main>
